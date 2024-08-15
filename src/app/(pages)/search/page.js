@@ -27,7 +27,7 @@ export default async function SearchPage({ searchParams }) {
   }
 
   return (
-    <div className="p-6 flex flex-col items-center justify-center h-screen">
+    <div className="p-6 flex flex-col items-center h-screen">
       <h1 className="text-xl font-semibold flex gap-4 items-center">
         <Link
           href="/"
