@@ -28,7 +28,7 @@ export default async function SearchPage({ searchParams }) {
 
   return (
     <div className="p-6 flex flex-col items-center justify-center h-screen">
-      <h1 className="text-xl font-semibold flex gap-4">
+      <h1 className="text-xl font-semibold flex gap-4 items-center">
         <Link
           href="/"
           className="bg-purple-800 py-2 px-8 flex rounded-md text-white font-semibold"
